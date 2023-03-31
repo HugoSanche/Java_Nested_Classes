@@ -24,7 +24,9 @@ public class Employee {
     private int employeeId;
     private String name;
     private int yearStarted;
+    public Employee(){
 
+    }
     public Employee(int employeeId, String name, int yearStarted) {
         this.employeeId = employeeId;
         this.name = name;
@@ -37,6 +39,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "%d %-8s %d".formatted(employeeId,name,yearStarted);
+        return "%-8d %-8s %-12d".formatted(employeeId,name,yearStarted);
     }
 }
