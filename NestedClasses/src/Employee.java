@@ -33,7 +33,7 @@ public class Employee {
         this.yearStarted = yearStarted;
     }
 
-    public String getName() {
+    public String getName2() {
         return name;
     }
 

@@ -4,6 +4,6 @@ public class ComparatorEmployee <T extends Employee> implements Comparator<Emplo
 
     @Override
     public int compare(Employee o1, Employee o2) {
-        return o1.getName().compareTo(o2.getName());
+        return o1.getName2().compareTo(o2.getName2());
     }
 }
