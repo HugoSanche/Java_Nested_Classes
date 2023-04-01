@@ -30,7 +30,7 @@ public class Main {
         var comparatorOfEmployee=new Employee.ComparatorEmployee<>();
         storeEmployees.sort(comparatorOfEmployee);//check you are used Comparator from Employee not comparator of StoreEmployee
 
-        //accessing a method of inner class
+        //accessing a class   of inner class
         //Check how accessing to class StoreComparator
         var store=new StoreEmployee();
         var comparatorOfStore=store.new StoreComparator<>();//check you are used Comparator from StoreEmployee not comparator of Employee
