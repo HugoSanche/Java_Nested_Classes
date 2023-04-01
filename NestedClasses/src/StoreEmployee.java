@@ -19,7 +19,7 @@ public class StoreEmployee extends Employee{
 
             //if are o1 and o2 from the same store call comparator of Employee and order by "yearStarted"
             if (result == 0) {
-                System.out.println("Result "+result+" o1 "+o1+" o2 "+o2);
+                //System.out.println("Result "+result+" o1 "+o1+" o2 "+o2);
                 return new Employee.ComparatorEmployee<>("yearStarted").compare(o1,o2);
             }
             return result;
